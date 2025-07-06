@@ -55,7 +55,7 @@ cd gh-pages
 git add docs
 
 if [ -n "$(git status --porcelain)" ]; then
-    echo "Documentation changes found. Commiting the changes to the 'gh-pages' branch and pushing to origin."
+    echo "Documentation changes found. Committing the changes to the 'gh-pages' branch and pushing to origin."
     git commit -m "Update GitHub Pages documentation site to '$CURRENT_COMMIT_HASH'."
     git push origin HEAD:gh-pages
 else

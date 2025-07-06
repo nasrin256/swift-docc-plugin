@@ -16,7 +16,7 @@ public struct Foo {
 /// This is the documentation for ``Swift/Array``.
 ///
 /// This is the extension to ``Array`` with the longest documentation
-/// comment, thus it is used for doucmenting the extended type in this
+/// comment, thus it is used for documenting the extended type in this
 /// target.
 extension Array {
     /// This is the documentation for the ``isArray`` property
@@ -30,7 +30,7 @@ extension Array {
 /// This is the documentation for ``Swift/Int``.
 ///
 /// This is the extension to ``Int`` with the longest documentation
-/// comment, thus it is used for doucmenting the extended type in this
+/// comment, thus it is used for documenting the extended type in this
 /// target.
 extension Int {
     /// This is the documentation for the ``isArray`` property
